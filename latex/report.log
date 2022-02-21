@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.27)  21 FEB 2022 09:30
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.7.27)  21 FEB 2022 09:55
  restricted system commands enabled.
 **report.tex
 (./report.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.120 seconds
+luaotfload | main : initialization completed in 0.117 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1458,7 +1458,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/fastqc/p6.png, id=120, 841.7046pt x 505.89pt>
 File: images/fastqc/p6.png Graphic file (type png)
 <use images/fastqc/p6.png>
-Package luatex.def Info: images/fastqc/p6.png  used on input line 284.
+Package luatex.def Info: images/fastqc/p6.png  used on input line 286.
 (luatex.def)             Requested size: 336.67587pt x 202.3524pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1472,7 +1472,7 @@ _quality_histogram.png Graphic file (type png)
 <use images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_mapping_
 quality_histogram.png>
 Package luatex.def Info: images/qualimap/AH_S1_L001.sort_stats/images_qualimapRe
-port/genome_mapping_quality_histogram.png  used on input line 352.
+port/genome_mapping_quality_histogram.png  used on input line 355.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_mapping_qual
 ity_histogram.png, id=170, 1027.84pt x 770.88pt>
@@ -1481,7 +1481,7 @@ _quality_histogram.png Graphic file (type png)
 <use images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_mapping_
 quality_histogram.png>
 Package luatex.def Info: images/qualimap/CH_S2_L001.sort_stats/images_qualimapRe
-port/genome_mapping_quality_histogram.png  used on input line 353.
+port/genome_mapping_quality_histogram.png  used on input line 356.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_coverage_his
 togram.png, id=171, 1027.84pt x 770.88pt>
@@ -1490,7 +1490,7 @@ e_histogram.png Graphic file (type png)
 <use images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_coverage
 _histogram.png>
 Package luatex.def Info: images/qualimap/AH_S1_L001.sort_stats/images_qualimapRe
-port/genome_coverage_histogram.png  used on input line 364.
+port/genome_coverage_histogram.png  used on input line 367.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_coverage_his
 togram.png, id=172, 1027.84pt x 770.88pt>
@@ -1499,7 +1499,7 @@ e_histogram.png Graphic file (type png)
 <use images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_coverage
 _histogram.png>
 Package luatex.def Info: images/qualimap/CH_S2_L001.sort_stats/images_qualimapRe
-port/genome_coverage_histogram.png  used on input line 365.
+port/genome_coverage_histogram.png  used on input line 368.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_uniq_read_st
 arts_histogram.png, id=173, 1027.84pt x 770.88pt>
@@ -1508,7 +1508,7 @@ ad_starts_histogram.png Graphic file (type png)
 <use images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_uniq_rea
 d_starts_histogram.png>
 Package luatex.def Info: images/qualimap/AH_S1_L001.sort_stats/images_qualimapRe
-port/genome_uniq_read_starts_histogram.png  used on input line 376.
+port/genome_uniq_read_starts_histogram.png  used on input line 379.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_uniq_read_st
 arts_histogram.png, id=174, 1027.84pt x 770.88pt>
@@ -1517,7 +1517,7 @@ ad_starts_histogram.png Graphic file (type png)
 <use images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_uniq_rea
 d_starts_histogram.png>
 Package luatex.def Info: images/qualimap/CH_S2_L001.sort_stats/images_qualimapRe
-port/genome_uniq_read_starts_histogram.png  used on input line 377.
+port/genome_uniq_read_starts_histogram.png  used on input line 380.
 (luatex.def)             Requested size: 123.33548pt x 92.5016pt.
 <images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_coverage_acr
 oss_reference.png, id=175, 1027.84pt x 770.88pt>
@@ -1526,7 +1526,7 @@ e_across_reference.png Graphic file (type png)
 <use images/qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_coverage
 _across_reference.png>
 Package luatex.def Info: images/qualimap/AH_S1_L001.sort_stats/images_qualimapRe
-port/genome_coverage_across_reference.png  used on input line 388.
+port/genome_coverage_across_reference.png  used on input line 391.
 (luatex.def)             Requested size: 308.35437pt x 231.26578pt.
 <images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_coverage_acr
 oss_reference.png, id=176, 1027.84pt x 770.88pt>
@@ -1535,7 +1535,7 @@ e_across_reference.png Graphic file (type png)
 <use images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_coverage
 _across_reference.png>
 Package luatex.def Info: images/qualimap/CH_S2_L001.sort_stats/images_qualimapRe
-port/genome_coverage_across_reference.png  used on input line 389.
+port/genome_coverage_across_reference.png  used on input line 392.
 (luatex.def)             Requested size: 308.35437pt x 231.26578pt.
  [6
 
@@ -1548,24 +1548,29 @@ qualimap/AH_S1_L001.sort_stats/images_qualimapReport/genome_uniq_read_starts_his
 togram.png><./images/qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome
 _uniq_read_starts_histogram.png>] [8<./images/qualimap/AH_S1_L001.sort_stats/ima
 ges_qualimapReport/genome_coverage_across_reference.png><./images/qualimap/CH_S2
-_L001.sort_stats/images_qualimapReport/genome_coverage_across_reference.png>] [
-9
+_L001.sort_stats/images_qualimapReport/genome_coverage_across_reference.png>]
+Overfull \hbox (0.17264pt too wide) in paragraph at lines 404--410
+\TU/SourceSansPro--Light(0)/m/n/10 Chro-mo-some/scaf-fold name, Gene % GC con-t
+ent, HGNC sym-bol, and HGNC ID. The gene sym-bols for each tar-get list are 
+ []
+
+[9
 
 ] [10]
 No file report.bbl.
 
-Overfull \hbox (0.16261pt too wide) in paragraph at lines 508--515
+Overfull \hbox (0.16261pt too wide) in paragraph at lines 511--518
 \TU/SourceSansPro--Light(0)/m/n/10 This doc-u-ment style is de-rived from the w
 eb de-sign for SOPHiA ge-net-ics, us-ing fonts Source Sans Pro (light, reg-u-la
 r, and 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
 [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 09495A0C96B6015E8459B82B0B417A36;731.
 )
@@ -1576,16 +1581,16 @@ Here is how much of LuaTeX's memory you used:
  584 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 3 glue, 5 attribute, 86 glue_spec, 5 attribute_list
 , 1 write nodes
-   avail lists: 1:3,2:1828,3:211,4:115,5:630,6:48,7:5039,8:82,9:537,10:12,11:272
+   avail lists: 1:3,2:1828,3:213,4:115,5:642,6:48,7:5039,8:82,9:537,10:12,11:274
 
  28273 multiletter control sequences out of 65536+600000
  78 fonts using 13793743 bytes
- 51i,9n,116p,886b,903s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 51i,9n,116p,836b,903s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-LightIt.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/adobe/source
 sanspro/SourceSansPro-Light.otf></usr/local/texlive/2018/texmf-dist/fonts/openty
 pe/adobe/sourcesanspro/SourceSansPro-Regular.otf>
-Output written on report.pdf (11 pages, 1033916 bytes).
+Output written on report.pdf (11 pages, 1034100 bytes).
 
 PDF statistics: 257 PDF objects out of 1000 (max. 8388607)
  204 compressed objects within 3 object streams

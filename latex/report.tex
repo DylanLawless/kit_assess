@@ -75,7 +75,7 @@
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
 \title{\Large \bf Comparison of two target sequencing approaches.
 \footnote{This document's source code is available from the 
-\href{https://github.com/DylanLawless/kit_assess}{GitHub repository}.
+\href{https://github.com/DylanLawless/kit_assess/blob/master/latex/report.tex}{GitHub repository}.
 All code used in this report is available on the 
 \href{https://github.com/DylanLawless/kit_assess}{GitHub repository}.}
 }
@@ -125,7 +125,7 @@ The performance of each was assessed with several bioinformatic methods includin
  [\href{https://www.sophiagenetics.com}{link group and contact address}].
 \item \textbf{Date}: 2022-02-14
 \item \textbf{Link to tickets where submission was logged}: [\href{https://www.sophiagenetics.com}{link}]
-\item \textbf{Data integrity}: [\href{https://github.com/DylanLawless/kit_assess/src/raw.md5sum}{link metadata md5sum}].
+\item \textbf{Data integrity}: [\href{https://github.com/DylanLawless/kit_assess/blob/master/src/raw.md5sum}{link metadata md5sum}].
 \end{itemize}
 
 \subsection{Configuration}
@@ -171,7 +171,7 @@ Based on
 [2] QC after alignment to reference genome GRCh37, and 
 [3] exploration of target coding regions,
 AH S1 performed better than CH S2 for use in clinical diagnosis of solid tumor.
-The read depth and uniform coverage provided for AH S1 outperformed CH S2, and is beneficial in tumor sequencing for calling germline variants, somatic variants, CNV or structural changes.
+The read depth and uniform coverage provided for AH S1 outperformed CH S2 and is beneficial in tumor sequencing for calling germline variants, somatic variants, CNV or structural changes.
 
 \subsection{Fastq data}
 \label{fastq_data}
@@ -191,8 +191,8 @@ The full html report is linked:
 \end{itemize}
 
 \begin{enumerate}
-\item Total sequences or the number of reads for all samples: 1000000
-\item Per base sequence quality: All samples perform sufficiently. Summarised in Figure \ref{fig:p1}
+\item Total sequences or the number of reads for each samples: 1000000
+\item Per base sequence quality: \textbf{All samples performed sufficiently}. Summarised in Figure \ref{fig:p1}
 	\begin{itemize}
 	\item Median value (red line):
 		 \textbf{AH good quality} (qual >28),
@@ -211,12 +211,12 @@ The full html report is linked:
 		\textbf{CH medium to good quality}  (qual >20).
 	\end{itemize}
 
-\item Per tile sequence quality: \textbf{All samples perform sufficiently}. No warning.
-\item Per sequence quality score: \textbf{All samples perform sufficiently},  summarised in Figure \ref{fig:p2}.
+\item Per tile sequence quality: \textbf{All samples performed sufficiently}. No warning.
+\item Per sequence quality score: \textbf{All samples performed sufficiently},  summarised in Figure \ref{fig:p2}.
 \item Per base sequence content. \textbf{All samples flagged} with warning indicating 
 a difference greater than 10\% in any position. However, this is potentially due targeted capturing, Figure \ref{fig:p3}.
 
-\item Per sequence GC content. \textbf{All samples fail} based on modal GC content as calculated from the observed data and used to build a reference distribution. The sum of the deviations from the normal distribution represents more than 30\% of the reads.
+\item Per sequence GC content. \textbf{All samples failed} based on modal GC content as calculated from the observed data and used to build a reference distribution. The sum of the deviations from the normal distribution represents more than 30\% of the reads.
 However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched duplicate sequences from targeted capturing and do not necessarily indicate poor quality, Figure \ref{fig:p4}.
 
 \item Sequence Length Distribution:\textbf{ AH reads were all 150}, while \textbf{CH reads were 35-151}.
@@ -231,9 +231,9 @@ However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched d
 \begin{figure}[h] \hspace*{0cm} 
 \begin{center}
     \includegraphics[scale=0.3]{fastqc/p1}
-	\caption{Per base sequence quality score: [Top] AH [Bottom] CH. AH outperforms CH for both reads.
+	\caption{Per base sequence quality score: [Top] AH [Bottom] CH. AH outperformed CH for both reads.
 		Central red line shows the median value.
-	Inter-quartile range 25-75\% (yellow box)
+	Inter-quartile range 25-75\% (yellow box).
 	Upper and lower whiskers represent the 10\% and 90\% points.
 	Mean quality (blue line).
 	}
@@ -244,8 +244,8 @@ However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched d
 \begin{figure}[h] \hspace*{0cm} 
 \begin{center}
     \includegraphics[scale=0.25]{fastqcr/p2}
-	\caption{Per sequence quality score: [Top] AH [Bottom] CH. All samples perform sufficiently.  AH outperforms CH for both reads.
-	Most frequently observed mean quality is above 30 for all samples; less than 0.2\% error rate.
+	\caption{Per sequence quality score: [Top] AH [Bottom] CH. All samples performed sufficiently.  AH outperformed CH for both reads.
+	Most frequently observed mean quality was above 30 for all samples; less than 0.2\% error rate.
 	}
 	\label{fig:p2}
 \end{center}
@@ -254,7 +254,7 @@ However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched d
 \begin{figure}[h] \hspace*{0cm} 
 \begin{center}
     \includegraphics[scale=0.25]{fastqcr/p3}
-	\caption{Per base sequence content: [Top] AH [Bottom] CH.}
+	\caption{Per base sequence content: [Top] AH [Bottom] CH. \textit{Note}: The frequencies observed for CH are unexpected; additional background information is required for their interpretation.}
 	\label{fig:p3}
 \end{center}
 \end{figure}
@@ -263,7 +263,7 @@ However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched d
 \begin{center}
     \includegraphics[scale=0.25]{fastqcr/p4}
 	\caption{Per sequence GC content: [Top] AH [Bottom] CH.
-	A normal distribution is expected for genomic DNA. However, targeted sequencing may produce difference distributions.}
+	A normal distribution is expected for genomic DNA. However, targeted sequencing may produce difference distributions as seen here.}
 	\label{fig:p4}
 \end{center}
 \end{figure}
@@ -272,7 +272,9 @@ However, the sharp peaks (as seen on AH [Top]) are most likely due to enriched d
 \begin{center}
     \includegraphics[scale=0.25]{fastqcr/p5}
 	\caption{Sequence Duplication Levels:  [Top] AH [Bottom] CH.
-	The plot shows the proportion of the library which is made up of sequences in each of the different duplication level bins. There are two lines on the plot. The blue line takes the full sequence set and shows how its duplication levels are distributed. In the red plot the sequences are de-duplicated and the proportions shown are the proportions of the deduplicated set which come from different duplication levels in the original data.
+	The plot shows the proportion of the library which is made up of sequences in each of the different duplication level bins. 
+	The blue line shows the duplication level distribution for full sequence sets. 
+	The red line shows de-duplicated sequences and the proportions shown are the proportions of the deduplicated set which come from different duplication levels in the original data.
 In a properly diverse library most sequences should fall into the far left of the plot in both the red and blue lines.
 The fail status is due to non-unique sequences making up more than 50\% of the total, which is not a problem for targeted capture libraries.}
 	\label{fig:p5}
@@ -282,17 +284,18 @@ The fail status is due to non-unique sequences making up more than 50\% of the t
 \begin{figure}[h] \hspace*{0cm} 
 \begin{center}
     \includegraphics[scale=0.4]{fastqc/p6}
-	\caption{Adapter content plot:  [Top] AH [Bottom] CH. Acumulative percentage count of the proportion of library which has seen each of the adapter sequences at each position.}
+	\caption{Adapter content plot:  [Top] AH [Bottom] CH. Acumulative percentage count of the proportion of library which has seen each of the adapter sequences at each position. Adaptor sequence Illumina universal was found for AH, and no adaptor sequence was identified for CH. }
 	\label{fig:p6}
 \end{center}
 \end{figure}
 
 \clearpage
+
 \subsection{Alignment data}
 \label{align_data}
 Fastq were trimmed using
 \href{https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/}{TrimGalore}.  
-Trim Galore also requires the use of 
+with the use of 
 \href{ https://github.com/marcelm/cutadapt/}{cutadapt}.
 
 Reads were aligned to GRCh37 using 
@@ -306,15 +309,15 @@ The aligment data was assessed using
 \item \href{http://qualimap.conesalab.org}{qualimap}: examines sequencing alignment data in SAM/BAM files according to the features of the mapped reads and provides an overall view of the data that helps to the detect biases in the sequencing and/or mapping of the data and eases decision-making for further analysis.
 \end{itemize}
 
-Qualimap full report link:
+Qualimap full html report link:
 \href{https://lawlessgenomics.com/pages/sophia/AH_S1_L001.sort_stats/qualimapReport.html}{sample AH}
 
-Qualimap full report link:
+Qualimap full html report link:
 \href{https://lawlessgenomics.com/pages/sophia/CH_S2_L001.sort_stats/qualimapReport.html}{sample CH}
 
 \begin{enumerate}
-\item Samtools flagstat mapping summary shows alignment with GRCh37, sorted reads, Table \ref{table:1}.\\
-\item Mapping quality histogram indicate AH performing better than CH, Figure \ref{fig:qualimap_map_qual_hist}.
+\item Samtools flagstat mapping summary shows alignment performance with GRCh37 for sorted reads, Table \ref{table:1}.\\
+\item Mapping quality histogram indicate that AH performed better than CH, Figure \ref{fig:qualimap_map_qual_hist}.
 \item Genome coverage histogram shows that AH produced a normal distribution of coverage depths while CH had an enrichment for some genomic regions, Figure \ref{fig:qualimap_gen_cov_hist}.
 \item The duplication rate histograms are shown in Figure \ref{fig:qualimap_dup_hist}.
 \item Genome coverage across GRCh37 shows a uniform distribution of reads for AH [Top], while CH [Bottom] has high depth in some regions with lower coverage in others, Figure \ref{fig:qualimap_gen_cov_ref}.
@@ -365,7 +368,7 @@ Histogram of the number of genomic locations having a given mapping quality. To 
         \includegraphics[scale=0.12]{qualimap/CH_S2_L001.sort_stats/images_qualimapReport/genome_coverage_histogram}
 	\caption{
 	Genome coverage histogram (GRCh37). [Left] AH [Right] CH.
-	Histogram of the number of genomic locations having a given coverage rate. The bins of the x-axis are conveniently scaled by aggregating some coverage values in order to produce a representative histogram also in presence of the usual NGS peaks of coverage.
+	Histogram of the number of genomic locations having a given coverage rate. The bins of the x-axis are scaled by aggregating some coverage values in order to produce a representative histogram also in presence of the usual NGS peaks of coverage.
 	}
 	\label{fig:qualimap_gen_cov_hist}
 \end{center}
@@ -401,7 +404,7 @@ Histogram of the number of genomic locations having a given mapping quality. To 
 To learn about what target regions are captured in this dataset, the coordinates (hg19) were annotated using Ensembl Biomart. The data was annotated using 
 \href{http://grch37.ensembl.org/biomart/martview/3b67c8bb1f8be31e245e76a1b368fc8b}{grch37.ensembl.org/biomart}
 dataset Ensembl Genes 105 (GRCh37.p13).
-Output Attributes queried for these regions: Gene stable ID, Transcript stable ID, Gene name, Gene start (bp), Gene end (bp), Chromosome/scaffold name, Gene \% GC content, HGNC symbol, HGNC ID.
+Output attributes queried for these regions: Gene stable ID, Transcript stable ID, Gene name, Gene start (bp), Gene end (bp), Chromosome/scaffold name, Gene \% GC content, HGNC symbol, and HGNC ID.
 The gene symbols for each target list are shown in Table \ref{long}:
 \begin{itemize}
 	\item \href{https://lawlessgenomics.com/pages/sophia/target_info_biomart_simple.html}{Target coding genes table (html version).}
@@ -409,11 +412,11 @@ The gene symbols for each target list are shown in Table \ref{long}:
 
 \begin{center}
 \begin{longtable}{ l l l l l l l}
-\caption{Targeted coding genes in GRCh37 present in for each methods. \label{long}}\\
+\caption{Targeted coding genes in GRCh37 present in for each method. \label{long}}\\
 %
 %\begin{tabular}{ l l l l l l l}
  \hline  
-Chr & Start & End & Gene name & pc GC content & AH S1 & CH S2 \\
+Chr & Start & End & Gene name & \% GC content & AH S1 & CH S2 \\
 1 & 43803478 & 43818443 & MPL & 48.47 & Yes & No \\
 1 & 115247090 & 115259515 & NRAS & 39 & Yes & Yes \\
 1 & 162601163 & 162757190 & DDR2 & 40.47 & Yes & Yes \\
