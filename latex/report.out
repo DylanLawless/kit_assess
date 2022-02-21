@@ -1,10 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Result summary}{}% 2
-\BOOKMARK [1][-]{section.3}{Main files for technical writing report}{}% 3
-\BOOKMARK [1][-]{section.4}{Methods}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Data source}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Configuration}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Data exploration}{section.4}% 7
-\BOOKMARK [1][-]{section.5}{Supplemental files for intermediate report}{}% 8
-\BOOKMARK [1][-]{section.6}{Result details}{}% 9
-\BOOKMARK [1][-]{section.7}{Methods}{}% 10
+\BOOKMARK [1][-]{section.2}{Details for technical writing report}{}% 2
+\BOOKMARK [1][-]{section.3}{Methods}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Data source}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Configuration}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Analysis code}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Results}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Result summary}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Fastq data}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Alignment data}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Target coding genes}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 12
+\BOOKMARK [1][-]{section.6}{Colophon}{}% 13

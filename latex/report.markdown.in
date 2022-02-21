@@ -8,10 +8,9 @@ Please include:
 * \textbf{Introduction}: all details from sec. \ref{intro}.
 * \textbf{Data source}: all details from sec. \ref{data_source}.
 * \textbf{Protocol details}: a hyperlink to the protocol source: [\href{https://github.com/DylanLawless/kit_assess/README.md}{link}].
-* \textbf{Main result}: Summary
-* \textbf{Figures}: list of figures
-
-
+* \textbf{Main result}: Result summary sec. \ref{result_summary}.
+* \textbf{Figures}: \ref{fig:p1},
+and  \ref{fig:qualimap_gen_cov_ref}.
 
 
 \section{Methods}
@@ -24,10 +23,8 @@ The performance of each was assessed with several bioinformatic methods includin
 * Data source: raw sequence data was received from
  [\href{https://www.sophiagenetics.com}{link group and contact address}].
 * Date: 2022-02-14
-* Link to tickets where their submission was logged: [\href{https://www.sophiagenetics.com}{link}]
+* Link to tickets where submission was logged: [\href{https://www.sophiagenetics.com}{link}]
 * Data integrity: [\href{https://github.com/DylanLawless/kit_assess/src/metadata/raw.md5sum}{link metadata md5sum}].
-
-
 
 \subsection{Configuration}
 
@@ -45,50 +42,13 @@ The performance of each was assessed with several bioinformatic methods includin
 \subsection{Data exploration}
 * Read counts:
 
-read_count.sh
-3. fastQC: manual run all fastq and save to ./processed/fastqc
+read count
+3. fastQC:
+
 3. fastqcr: Assess fastqc rerpots further
-4. src/target_info.sh
+4. src/target info.sh
 5. src/1.trim.sh
 6. src/2.align.sh
 7. src/3.sort.sh
 8. src/mapping.sh
-
-
-
-\section{Supplemental files for intermediate report}
- [\href{https://github.com/DylanLawless/kit_assess/data/processed/}{link}].
-
-
-\section{Result details}
-
-\begin{figure}[ht] \hspace*{0cm}
-\begin{center}
-    \includegraphics[scale=0.3]{p1}
-    \includegraphics[scale=0.3]{p2}
-	\caption{Caption.}
-	\label{fig:p1p2}
-\end{center}
-\end{figure}
-
-\begin{figure}[ht] \hspace*{0cm}
-\begin{center}
-    \includegraphics[scale=0.3]{p3}
-    \includegraphics[scale=0.3]{p4}
-	\caption{Caption.}
-	\label{fig:p3p4}
-\end{center}
-\end{figure}
-
-\begin{figure}[ht] \hspace*{0cm}
-\begin{center}
-    \includegraphics[scale=0.3]{p5}
-    \includegraphics[scale=0.3]{p6}
-	\caption{Caption.}
-	\label{fig:p5p6}
-\end{center}
-\end{figure}
-
-
-\section{Methods}
 
